@@ -1,0 +1,61 @@
+[0.007s] Invoking command in '/home/ema/Desktop/work/ettorone_mujoco_cpp/build/ettorone_mujoco_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ema/Desktop/work/ettorone_mujoco_cpp/build/ettorone_mujoco_cpp -- -j16 -l16
+[0.036s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.200s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.220s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.227s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.233s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.241s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.280s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.281s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.317s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.352s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.358s] -- Found tf2: 0.36.19 (/opt/ros/jazzy/share/tf2/cmake)
+[0.368s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.427s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.427s] -- Configured cppcheck include dirs: /home/ema/Desktop/work/ettorone_mujoco_cpp/include
+[0.427s] -- Configured cppcheck exclude dirs and/or files: 
+[0.428s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.428s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.428s] -- Added test 'lint_cmake' to check CMake code style
+[0.430s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.432s] -- Added test 'uncrustify' to check C / C++ code style
+[0.432s] -- Configured uncrustify additional arguments: 
+[0.433s] -- Added test 'xmllint' to check XML markup files
+[0.433s] -- Configuring done (0.4s)
+[0.439s] -- Generating done (0.0s)
+[0.441s] -- Build files have been written to: /home/ema/Desktop/work/ettorone_mujoco_cpp/build/ettorone_mujoco_cpp
+[0.475s] [ 33%] [32mBuilding CXX object CMakeFiles/mj_ros2_ettorone.dir/src/main.cpp.o[0m
+[0.475s] [ 66%] [32mBuilding CXX object CMakeFiles/mj_ros2_ettorone.dir/src/mj_ettorone_node.cpp.o[0m
+[1.634s] [01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/src/main.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[1.634s] [01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/src/main.cpp:11:22:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::executors::MultiThreadedExecutor::add_node(std::shared_ptr<MjEttorone>&)[m[K’
+[1.635s]    11 |     [01;31m[Kexecutor.add_node(node)[m[K;
+[1.635s]       |     [01;31m[K~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[1.635s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.635s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.635s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+[1.635s]                  from [01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/src/main.cpp:1[m[K:
+[1.635s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:200:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvirtual void rclcpp::Executor::[01;32m[Kadd_node[m[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, bool)[m[K’
+[1.635s]   200 |   [01;36m[Kadd_node[m[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr, bool notify = true);
+[1.635s]       |   [01;36m[K^~~~~~~~[m[K
+[1.635s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:200:66:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kshared_ptr<[01;32m[KMjEttorone[m[K>[m[K’ to ‘[01m[Kshared_ptr<[01;32m[Krclcpp::node_interfaces::NodeBaseInterface[m[K>[m[K’
+[1.635s]   200 |   add_node([01;36m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr[m[K, bool notify = true);
+[1.635s]       |            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[1.635s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:208:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvirtual void rclcpp::Executor::[01;32m[Kadd_node[m[K(std::shared_ptr<rclcpp::Node>, bool)[m[K’
+[1.635s]   208 |   [01;36m[Kadd_node[m[K(std::shared_ptr<rclcpp::Node> node_ptr, bool notify = true);
+[1.635s]       |   [01;36m[K^~~~~~~~[m[K
+[1.635s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:208:42:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kshared_ptr<[01;32m[KMjEttorone[m[K>[m[K’ to ‘[01m[Kshared_ptr<[01;32m[Krclcpp::Node[m[K>[m[K’
+[1.635s]   208 |   add_node([01;36m[Kstd::shared_ptr<rclcpp::Node> node_ptr[m[K, bool notify = true);
+[1.635s]       |            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[1.638s] [01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/src/mj_ettorone_node.cpp:3:7:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kclass MjEttorone[m[K’
+[1.638s]     3 | class [01;31m[KMjEttorone[m[K : public rclcpp::Node
+[1.638s]       |       [01;31m[K^~~~~~~~~~[m[K
+[1.638s] In file included from [01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/src/mj_ettorone_node.cpp:1[m[K:
+[1.638s] [01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/include/ettorone_mujoco_cpp/mj_ettorone_node.hpp:13:7:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kclass MjEttorone[m[K’
+[1.638s]    13 | class [01;36m[KMjEttorone[m[K
+[1.638s]       |       [01;36m[K^~~~~~~~~~[m[K
+[1.961s] gmake[2]: *** [CMakeFiles/mj_ros2_ettorone.dir/build.make:76: CMakeFiles/mj_ros2_ettorone.dir/src/main.cpp.o] Error 1
+[1.961s] gmake[2]: *** Waiting for unfinished jobs....
+[1.961s] gmake[2]: *** [CMakeFiles/mj_ros2_ettorone.dir/build.make:90: CMakeFiles/mj_ros2_ettorone.dir/src/mj_ettorone_node.cpp.o] Error 1
+[1.961s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mj_ros2_ettorone.dir/all] Error 2
+[1.961s] gmake: *** [Makefile:146: all] Error 2
+[1.962s] Invoked command in '/home/ema/Desktop/work/ettorone_mujoco_cpp/build/ettorone_mujoco_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ema/Desktop/work/ettorone_mujoco_cpp/build/ettorone_mujoco_cpp -- -j16 -l16

@@ -1,0 +1,177 @@
+<mujoco model="rover">
+
+    <option gravity="0 0 -9.81" timestep="0.002"/>
+
+    <worldbody>
+
+        <light pos="0 0 10" dir="0 0 -1"/>
+
+        <!-- pavimento -->
+        <geom name="floor"
+              type="plane"
+              size="10 10 0.1"
+              friction="1.0 0.01 0.01"
+              rgba="0.8 0.8 0.8 1"/>
+
+        <!-- corpo robot -->
+        <body name="base" pos="0 0 0.1">
+
+            <joint type="free"/>
+
+            <geom type="box"
+                  size="0.2 0.15 0.05"
+                  mass="50"
+                  rgba="0 0 1 1"/>
+
+            <!-- asse sterzante sinistro -->
+            <body name="steering_axes_L_link" pos="0.2 0.15 0">
+
+                <joint name="steering_axes_L_joint"
+                       type="hinge"
+                       axis="0 0 1"/>
+ 
+                <geom type="cylinder"
+                      size="0.05 0.05"
+                      friction="0.01 0.002 0.001"
+                      condim="6"
+                      rgba="0 0 0 1"/>
+                <body name="axes_LF_link" pos="0 0.0475 -0.025" euler="90 0 0">
+                    <geom type="cylinder"
+                        mass="2.5"
+                        size="0.015 0.1"
+                        rgba="0 0 0 1"/>
+                </body>
+                    <!-- ruota sinistra front -->
+                    <body name="left_wheel_f" pos="0.0 0.17 -0.025" euler="90 0 0">
+
+                        <joint name="left_wheel_f_joint"
+                            type="hinge"
+                            axis="0 0 1"/>
+
+                        <geom type="cylinder"
+                            size="0.05 0.02"
+                            mass="1"
+                            friction="2 0.02 0.01"
+                            condim="6"
+                            rgba="0 0 0 1"/>
+
+                    </body>
+                    
+            </body>
+            <!-- asse sterzante destro -->
+            <body name="steering_axes_R_link" pos="0.2 -0.15 0">
+
+                <joint name="steering_axes_R_joint"
+                       type="hinge"
+                       axis="0 0 1"/>
+ 
+                <geom type="cylinder"
+                      size="0.05 0.05"
+                      friction="0.01 0.002 0.001"
+                      condim="6"
+                      rgba="0 0 0 1"/>
+                <body name="axes_RF_link" pos="0 -0.0475 -0.025" euler="90 0 0">
+                    <geom type="cylinder"
+                        mass="2.5"
+                        size="0.015 0.1"
+                        rgba="0 0 0 1"/>
+                </body>
+            <!-- ruota destra front -->
+                <body name="right_wheel_f" pos="0.0 -0.17 -0.025" euler="90 0 0">
+
+                    <joint name="right_wheel_f_joint"
+                        type="hinge"
+                        axis="0 0 1"/>
+
+                    <geom type="cylinder"
+                        size="0.05 0.02"
+                        friction="2 0.02 0.01"
+                        mass="1"
+                        condim="6"
+                        rgba="0 0 0 1"/>
+
+                </body>
+            </body>
+            <!-- asse sterzante sinistro back -->
+            <body name="steering_axes_LB_link" pos="-0.2 0.15 0">
+
+                <joint name="steering_axes_LB_joint"
+                       type="hinge"
+                       axis="0 0 1"/>
+ 
+                <geom type="cylinder"
+                      size="0.05 0.05"
+                      friction="0.01 0.002 0.001"
+                      condim="6"
+                      rgba="0 0 0 1"/>
+
+                <body name="axes_LB_link" pos="0 0.0475 -0.025" euler="90 0 0">
+                    <geom type="cylinder"
+                        mass="2.5"
+                        size="0.015 0.1"
+                        rgba="0 0 0 1"/>
+                </body>
+            <!-- ruota sinistra back -->
+                <body name="left_wheel_b" pos="0 0.17 -0.025" euler="90 0 0">
+
+                    <joint name="left_wheel_b_joint"
+                        type="hinge"
+                        axis="0 0 1"/>
+
+                    <geom type="cylinder"
+                        size="0.05 0.02"
+                        friction="2 0.02 0.01"
+                        condim="6"
+                        mass="1"
+                        rgba="0 0 0 1"/>
+
+                </body>
+            </body>
+            <!-- asse sterzante sinistro back -->
+            <body name="steering_axes_RB_link" pos="-0.2 -0.15 0">
+
+                <joint name="steering_axes_RB_joint"
+                       type="hinge"
+                       axis="0 0 1"/>
+ 
+                <geom type="cylinder"
+                      size="0.05 0.05"
+                      friction="0.01 0.002 0.001"
+                      condim="6"
+                      rgba="0 0 0 1"/>
+                <body name="axes_RB_link" pos="0 -0.0475 -0.025" euler="90 0 0">
+                    <geom type="cylinder"
+                        mass="2.5"
+                        size="0.015 0.1"
+                        rgba="0 0 0 1"/>
+                </body>
+            <!-- ruota destra back -->
+                <body name="right_wheel_b" pos="0 -0.17 -0.025" euler="90 0 0">
+
+                    <joint name="right_wheel_b_joint"
+                        type="hinge"
+                        axis="0 0 1"/>
+
+                    <geom type="cylinder"
+                        size="0.05 0.02"
+                        mass="1"
+                        friction="2 0.02 0.01"
+                        condim="6"
+                        rgba="0 0 0 1"/>
+
+                </body>
+            </body>
+        </body>
+
+    </worldbody>
+
+    <actuator>
+
+        <motor joint="left_wheel_f_joint" ctrlrange="-5 5"/>
+        <motor joint="right_wheel_f_joint" ctrlrange="-5 5"/>
+        <motor joint="left_wheel_b_joint" ctrlrange="-5 5"/>
+        <motor joint="right_wheel_b_joint" ctrlrange="-5 5"/>
+
+    </actuator>
+
+</mujoco>

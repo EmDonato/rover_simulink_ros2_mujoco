@@ -1,0 +1,56 @@
+[0.006s] Invoking command in '/home/ema/Desktop/work/ettorone_mujoco_cpp/build/ettorone_mujoco_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ema/Desktop/work/ettorone_mujoco_cpp -DCMAKE_INSTALL_PREFIX=/home/ema/Desktop/work/ettorone_mujoco_cpp/install/ettorone_mujoco_cpp
+[0.049s] -- The C compiler identification is GNU 13.3.0
+[0.098s] -- The CXX compiler identification is GNU 13.3.0
+[0.110s] -- Detecting C compiler ABI info
+[0.175s] -- Detecting C compiler ABI info - done
+[0.181s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.181s] -- Detecting C compile features
+[0.182s] -- Detecting C compile features - done
+[0.189s] -- Detecting CXX compiler ABI info
+[0.265s] -- Detecting CXX compiler ABI info - done
+[0.272s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.272s] -- Detecting CXX compile features
+[0.273s] -- Detecting CXX compile features - done
+[0.276s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.367s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.427s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.459s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.470s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.483s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.496s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.552s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.554s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.613s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.627s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.642s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.697s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.709s] -- Found tf2: 0.36.19 (/opt/ros/jazzy/share/tf2/cmake)
+[0.726s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.785s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.786s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ema/Desktop/work/ettorone_mujoco_cpp/include/mj_ros2_ettorone>
+[0.786s] -- Configured cppcheck exclude dirs and/or files: 
+[0.786s] -- Added test 'lint_cmake' to check CMake code style
+[0.788s] -- Added test 'uncrustify' to check C / C++ code style
+[0.788s] -- Configured uncrustify additional arguments: 
+[0.789s] -- Added test 'xmllint' to check XML markup files
+[0.790s] -- Configuring done (0.8s)
+[0.795s] -- Generating done (0.0s)
+[0.797s] -- Build files have been written to: /home/ema/Desktop/work/ettorone_mujoco_cpp/build/ettorone_mujoco_cpp
+[0.805s] Invoked command in '/home/ema/Desktop/work/ettorone_mujoco_cpp/build/ettorone_mujoco_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ema/Desktop/work/ettorone_mujoco_cpp -DCMAKE_INSTALL_PREFIX=/home/ema/Desktop/work/ettorone_mujoco_cpp/install/ettorone_mujoco_cpp
+[0.806s] Invoking command in '/home/ema/Desktop/work/ettorone_mujoco_cpp/build/ettorone_mujoco_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ema/Desktop/work/ettorone_mujoco_cpp/build/ettorone_mujoco_cpp -- -j16 -l16
+[0.846s] [ 33%] [32mBuilding CXX object CMakeFiles/mj_ros2_ettorone.dir/src/main.cpp.o[0m
+[0.847s] [ 66%] [32mBuilding CXX object CMakeFiles/mj_ros2_ettorone.dir/src/mj_ettorone_node.cpp.o[0m
+[0.854s] [01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/src/mj_ettorone_node.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kmj_ettorone_node.hpp: No such file or directory
+[0.854s]     1 | #include [01;31m[K"mj_ettorone_node.hpp"[m[K
+[0.854s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.854s] compilation terminated.
+[0.855s] gmake[2]: *** [CMakeFiles/mj_ros2_ettorone.dir/build.make:90: CMakeFiles/mj_ros2_ettorone.dir/src/mj_ettorone_node.cpp.o] Error 1
+[0.855s] gmake[2]: *** Waiting for unfinished jobs....
+[1.014s] [01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/src/main.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kmj_ettorone_node.hpp: No such file or directory
+[1.014s]     2 | #include [01;31m[K"mj_ettorone_node.hpp"[m[K
+[1.014s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.014s] compilation terminated.
+[1.016s] gmake[2]: *** [CMakeFiles/mj_ros2_ettorone.dir/build.make:76: CMakeFiles/mj_ros2_ettorone.dir/src/main.cpp.o] Error 1
+[1.016s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mj_ros2_ettorone.dir/all] Error 2
+[1.017s] gmake: *** [Makefile:146: all] Error 2
+[1.018s] Invoked command in '/home/ema/Desktop/work/ettorone_mujoco_cpp/build/ettorone_mujoco_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ema/Desktop/work/ettorone_mujoco_cpp/build/ettorone_mujoco_cpp -- -j16 -l16

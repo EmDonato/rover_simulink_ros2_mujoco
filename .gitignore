@@ -1,0 +1,12 @@
+# ROS 2 workspace folders
+build/*
+install/*
+log/*
+
+# Python build products
+__pycache__/
+*.py[cod]
+
+slprj/*
+mesh/*
++bus_conv_fcns/*

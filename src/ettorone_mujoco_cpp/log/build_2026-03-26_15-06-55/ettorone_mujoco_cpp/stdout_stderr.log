@@ -1,0 +1,11 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/mj_ros2_ettorone.dir/src/mj_ettorone_node.cpp.o[0m
+[01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/src/mj_ettorone_node.cpp:[m[K In member function ‘[01m[Kvoid MjEttorone::[01;32m[Klistener_callback[m[K(std_msgs::msg::Float32MultiArray)[m[K’:
+[01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/src/mj_ettorone_node.cpp:124:23:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst std_msgs::msg::Float32MultiArray[m[K’ {aka ‘[01m[Kconst std_msgs::msg::Float32MultiArray_<std::allocator<void> >[m[K’}
+  124 |     for(int i = 0; msg[01;31m[K->[m[Kdata.size() && i < 8; i++){
+      |                       [01;31m[K^~[m[K
+[01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/src/mj_ettorone_node.cpp:125:22:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst std_msgs::msg::Float32MultiArray[m[K’ {aka ‘[01m[Kconst std_msgs::msg::Float32MultiArray_<std::allocator<void> >[m[K’}
+  125 |         act_[i] = msg[01;31m[K->[m[Kdata[i];
+      |                      [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/mj_ros2_ettorone.dir/build.make:90: CMakeFiles/mj_ros2_ettorone.dir/src/mj_ettorone_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mj_ros2_ettorone.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

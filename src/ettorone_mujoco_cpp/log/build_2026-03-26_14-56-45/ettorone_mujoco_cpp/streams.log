@@ -1,0 +1,19 @@
+[0.008s] Invoking command in '/home/ema/Desktop/work/ettorone_mujoco_cpp/build/ettorone_mujoco_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ema/Desktop/work/ettorone_mujoco_cpp/build/ettorone_mujoco_cpp -- -j16 -l16
+[0.056s] [ 66%] [32mBuilding CXX object CMakeFiles/mj_ros2_ettorone.dir/src/mj_ettorone_node.cpp.o[0m
+[0.056s] [ 66%] [32mBuilding CXX object CMakeFiles/mj_ros2_ettorone.dir/src/main.cpp.o[0m
+[0.187s] In file included from [01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/src/mj_ettorone_node.cpp:1[m[K:
+[0.187s] [01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/include/ettorone_mujoco_cpp/mj_ettorone_node.hpp:6:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/Float32MultiArray.h: No such file or directory
+[0.187s]     6 | #include [01;31m[K<std_msgs/msg/Float32MultiArray.h>[m[K
+[0.187s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.187s] compilation terminated.
+[0.190s] gmake[2]: *** [CMakeFiles/mj_ros2_ettorone.dir/build.make:90: CMakeFiles/mj_ros2_ettorone.dir/src/mj_ettorone_node.cpp.o] Error 1
+[0.190s] gmake[2]: *** Waiting for unfinished jobs....
+[0.190s] In file included from [01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/src/main.cpp:2[m[K:
+[0.190s] [01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/include/ettorone_mujoco_cpp/mj_ettorone_node.hpp:6:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/Float32MultiArray.h: No such file or directory
+[0.190s]     6 | #include [01;31m[K<std_msgs/msg/Float32MultiArray.h>[m[K
+[0.190s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.190s] compilation terminated.
+[0.192s] gmake[2]: *** [CMakeFiles/mj_ros2_ettorone.dir/build.make:76: CMakeFiles/mj_ros2_ettorone.dir/src/main.cpp.o] Error 1
+[0.192s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mj_ros2_ettorone.dir/all] Error 2
+[0.192s] gmake: *** [Makefile:146: all] Error 2
+[0.194s] Invoked command in '/home/ema/Desktop/work/ettorone_mujoco_cpp/build/ettorone_mujoco_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ema/Desktop/work/ettorone_mujoco_cpp/build/ettorone_mujoco_cpp -- -j16 -l16

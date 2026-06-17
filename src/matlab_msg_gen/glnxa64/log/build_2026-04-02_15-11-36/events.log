@@ -1,0 +1,273 @@
+[0.000000] (-) TimerEvent: {}
+[0.000504] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.000557] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.014874] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.015531] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'build'}
+[0.015619] (interfaces) Command: {'cmd': ['/usr/local/MATLAB/R2025b/bin/glnxa64/cmake/bin/cmake', '--build', '/home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/build/interfaces', '--', '-j16', '-l16'], 'cwd': '/home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('ARCH', 'glnxa64'), ('CUSTOM_LD_LIBRARY_PATH', ''), ('USER', 'ema'), ('LOCAL_PYTHON_VENV_PATH', '/home/ema/.matlab/R2025b/ros2/glnxa64/venv'), ('MEMKIND_HEAP_MANAGER', 'TBB'), ('CUSTOM_AMENT_PREFIX_PATH', '/home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install:/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2'), ('XDG_SESSION_TYPE', 'x11'), ('__EGL_VENDOR_LIBRARY_FILENAMES', '/usr/share/glvnd/egl_vendor.d/10_nvidia.json'), ('CLUTTER_DISABLE_MIPMAPPED_TEXT', '1'), ('KMP_HANDLE_SIGNALS', '0'), ('SHLVL', '2'), ('ICU_TIMEZONE_FILES_DIR', '/usr/local/MATLAB/R2025b/bin/icutzdata'), ('LD_LIBRARY_PATH', ':/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/lib:/usr/local/MATLAB/R2025b/sys/os/glnxa64:/usr/local/MATLAB/R2025b/bin/glnxa64:/home/ema/.MathWorks/xdJTwxKhLpLNmhsyPIrTSJYUZLtloJyItpbCjJDyqQg/bin/glnxa64:/usr/local/MATLAB/R2025b/extern/lib/glnxa64:/usr/local/MATLAB/R2025b/cefclient/sys/os/glnxa64:/usr/local/MATLAB/R2025b/sys/java/jre/glnxa64/jre/lib/amd64/native_threads:/usr/local/MATLAB/R2025b/sys/java/jre/glnxa64/jre/lib/amd64/server:/home/ema/mujoco-3.6.0/lib:'), ('BASEMATLABPATH', ''), ('HOME', '/home/ema'), ('AUTOMOUNT_MAP', ''), ('OLDPWD', '/usr/local/MATLAB/R2025b'), ('DESKTOP_SESSION', 'ubuntu'), ('MW_LD_SHIM', '/usr/local/MATLAB/R2025b/bin/glnxa64/ld_shim.so.2.39.ubuntu_24_04'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('KMP_BLOCKTIME', '1'), ('PS1', '(venv)'), ('LIBVA_MESSAGING_LEVEL', '0'), ('SYSTEMD_EXEC_PID', '4433'), ('GSM_SKIP_SSH_AGENT_WORKAROUND', 'true'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('DEBUGINFOD_URLS', 'https://debuginfod.ubuntu.com'), ('CUSTOM_SITE_PACKAGES_PATH', ''), ('COLCON_PREFIX_PATH', '/home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install:/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2:/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2'), ('MWAPIKEY', 'bUCdPx9n7WqQlkfg'), ('ROS_DISTRO', 'jazzy'), ('LOGNAME', 'ema'), ('MATLAB_MEM_MGR_VALUE', ''), ('_', '/home/ema/.matlab/R2025b/ros2/glnxa64/venv/bin/colcon'), ('PKG_CONFIG_PATH', '/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/lib/pkgconfig'), ('MEMORY_PRESSURE_WATCH', '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ema'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/MATLAB/R2025b/bin/glnxa64/cmake/bin::/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/bin:/home/ema/.matlab/R2025b/ros2/glnxa64/venv/bin:/home/ema/.matlab/R2025b/ros2/glnxa64/venv/bin:/usr/local/MATLAB/R2025b/toolbox/shared/coder/ninja/glnxa64:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tuxedo:@/tmp/.ICE-unix/4402,unix/tuxedo:/tmp/.ICE-unix/4402'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/05f40462_feae_4b78_b1f7_43b20fe59747'), ('MUJOCO_PATH', '/home/ema/mujoco-3.6.0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('TOOLBOX', '/usr/local/MATLAB/R2025b/toolbox'), ('MKL_DOMAIN_NUM_THREADS', ''), ('KMP_INIT_AT_FORK', 'false'), ('DISPLAY', ':1'), ('LD_PRELOAD', ''), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PRE_LD_PRELOAD', ''), ('VIRTUAL_ENV_PROMPT', '(venv)'), ('RMW_IMPLEMENTATION', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:'), ('GNOME_TERMINAL_SERVICE', ':1.302'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install:/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2:/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2'), ('SHELL', '/bin/bash'), ('CMAKE_PATH', '/usr/local/MATLAB/R2025b/bin/glnxa64/cmake/bin'), ('XFILESEARCHPATH', '/usr/local/MATLAB/R2025b/sys/java/jre/glnxa64/jre/lib/locale/%L/%T/%N%S:'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('OSG_LD_LIBRARY_PATH', '/usr/local/MATLAB/R2025b/sys/openscenegraph/lib/glnxa64'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VIRTUAL_ENV', '/home/ema/.matlab/R2025b/ros2/glnxa64/venv'), ('CUSTOM_PATH', ''), ('KMP_STACKSIZE', '512k'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/build/interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DYLD_LIBRARY_PATH', ':/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/lib:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('MKL_NUM_THREADS', ''), ('MW_PATCH_OFFSETS', '0000100000002A80'), ('PYTHONPATH', ':/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/lib/python3.9/site-packages:/home/ema/.matlab/R2025b/ros2/glnxa64/venv/lib/python3.10/site-packages:'), ('LC_NUMERIC', 'C'), ('COLCON', '1'), ('MEMORY_PRESSURE_WRITE', 'c29tZSAyMDAwMDAgMjAwMDAwMAA='), ('VTE_VERSION', '7600'), ('MW_CONNECTOR_COOKIE_SETTINGS', '[{"prefix":"ch_","suffix":"_327116"}]'), ('CMAKE_PREFIX_PATH', '/home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install:/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2:/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2')]), 'shell': False}
+[0.038641] (interfaces) StdoutLine: {'line': b'[0/1] Re-running CMake...\n'}
+[0.047039] (interfaces) StdoutLine: {'line': b'-- Building for ROS 2 Jazzy\n'}
+[0.047297] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/ament_cmake/cmake)\n'}
+[0.099864] (-) TimerEvent: {}
+[0.104884] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/ament_cmake_ros/cmake)\n'}
+[0.108261] (interfaces) StdoutLine: {'line': b'-- Found rosidl_typesupport_c: 3.2.2 (/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_c/cmake)\n'}
+[0.108805] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.134395] (interfaces) StdoutLine: {'line': b'-- Found rosidl_typesupport_cpp: 3.2.2 (/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_cpp/cmake)\n'}
+[0.134778] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.151754] (interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/rosidl_default_generators/cmake)\n'}
+[0.154465] (interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.8.1 (/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/rosidl_adapter/cmake)\n'}
+[0.156198] (interfaces) StdoutLine: {'line': b'-- Found class_loader: 2.7.0 (/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/class_loader/cmake)\n'}
+[0.158086] (interfaces) StdoutLine: {'line': b'-- Found rclcpp: 28.1.3 (/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/rclcpp/cmake)\n'}
+[0.196016] (interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/rmw_implementation_cmake/cmake)\n'}
+[0.197316] (interfaces) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 9.0.0 (/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.199946] (-) TimerEvent: {}
+[0.221213] (interfaces) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.300121] (-) TimerEvent: {}
+[0.400422] (-) TimerEvent: {}
+[0.403985] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.454335] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.462170] (interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.481236] (interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[0.486169] (interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/build/interfaces\n'}
+[0.500511] (-) TimerEvent: {}
+[0.598028] (interfaces) StdoutLine: {'line': b'[1/38] Generating type hashes for ROS interfaces\n'}
+[0.600548] (-) TimerEvent: {}
+[0.700731] (-) TimerEvent: {}
+[0.719345] (interfaces) StdoutLine: {'line': b'[2/38] Generating C++ code for ROS interfaces\n'}
+[0.742668] (interfaces) StdoutLine: {'line': b'[3/38] Generating C code for ROS interfaces\n'}
+[0.766281] (interfaces) StdoutLine: {'line': b'[4/38] Building C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/float32_array12__type_support.c.o\n'}
+[0.766882] (interfaces) StdoutLine: {'line': b'[5/38] Building C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/float32_array8__type_support.c.o\n'}
+[0.778310] (interfaces) StdoutLine: {'line': b'[6/38] Building C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/float32_array12__description.c.o\n'}
+[0.781619] (interfaces) StdoutLine: {'line': b'[7/38] Building C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/float32_array8__description.c.o\n'}
+[0.800835] (-) TimerEvent: {}
+[0.802934] (interfaces) StdoutLine: {'line': b'[8/38] Building C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/float32_array8__functions.c.o\n'}
+[0.804313] (interfaces) StdoutLine: {'line': b'[9/38] Building C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/float32_array12__functions.c.o\n'}
+[0.819458] (interfaces) StdoutLine: {'line': b'[10/38] Linking C shared library libinterfaces__rosidl_generator_c.so\n'}
+[0.900946] (-) TimerEvent: {}
+[0.947941] (interfaces) StdoutLine: {'line': b'[11/38] Generating C type support for eProsima Fast-RTPS\n'}
+[0.954259] (interfaces) StdoutLine: {'line': b'[12/38] Generating C type support dispatch for ROS interfaces\n'}
+[0.960831] (interfaces) StdoutLine: {'line': b'[13/38] Generating C introspection for ROS interfaces\n'}
+[0.971286] (interfaces) StdoutLine: {'line': b'[14/38] Generating C++ introspection for ROS interfaces\n'}
+[0.977737] (interfaces) StdoutLine: {'line': b'[15/38] Generating C++ type support dispatch for ROS interfaces\n'}
+[0.988039] (interfaces) StdoutLine: {'line': b'[16/38] Generating C++ type support for eProsima Fast-RTPS\n'}
+[1.002640] (interfaces) StdoutLine: {'line': b'[17/38] Building C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/float32_array12__type_support.c.o\n'}
+[1.002829] (-) TimerEvent: {}
+[1.009870] (interfaces) StdoutLine: {'line': b'[18/38] Building CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/float32_array8__type_support.cpp.o\n'}
+[1.010105] (interfaces) StdoutLine: {'line': b'[19/38] Building CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/float32_array12__type_support.cpp.o\n'}
+[1.012467] (interfaces) StdoutLine: {'line': b'[20/38] Building C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/float32_array8__type_support.c.o\n'}
+[1.037794] (interfaces) StdoutLine: {'line': b'[21/38] Linking C shared library libinterfaces__rosidl_typesupport_introspection_c.so\n'}
+[1.070995] (interfaces) StdoutLine: {'line': b'[22/38] Linking CXX shared library libinterfaces__rosidl_typesupport_c.so\n'}
+[1.102956] (-) TimerEvent: {}
+[1.188867] (interfaces) StdoutLine: {'line': b'[23/38] Building CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/float32_array12__type_support.cpp.o\n'}
+[1.203065] (-) TimerEvent: {}
+[1.267742] (interfaces) StdoutLine: {'line': b'[24/38] Building CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/float32_array8__type_support.cpp.o\n'}
+[1.275123] (interfaces) StdoutLine: {'line': b'[25/38] Building CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/float32_array12__type_support.cpp.o\n'}
+[1.299859] (interfaces) StdoutLine: {'line': b'[26/38] Building CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/float32_array8__type_support_c.cpp.o\n'}
+[1.303156] (-) TimerEvent: {}
+[1.308262] (interfaces) StdoutLine: {'line': b'[27/38] Building CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/float32_array12__type_support.cpp.o\n'}
+[1.310437] (interfaces) StdoutLine: {'line': b'[28/38] Building CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/float32_array8__type_support.cpp.o\n'}
+[1.313205] (interfaces) StdoutLine: {'line': b'[29/38] Linking CXX shared library libinterfaces__rosidl_typesupport_cpp.so\n'}
+[1.340916] (interfaces) StdoutLine: {'line': b'[30/38] Building CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/float32_array8__type_support.cpp.o\n'}
+[1.348417] (interfaces) StdoutLine: {'line': b'[31/38] Linking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.383300] (interfaces) StdoutLine: {'line': b'[32/38] Linking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[1.403261] (-) TimerEvent: {}
+[1.421778] (interfaces) StdoutLine: {'line': b'[33/38] Building CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/float32_array12__type_support_c.cpp.o\n'}
+[1.454241] (interfaces) StdoutLine: {'line': b'[34/38] Linking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[1.503363] (-) TimerEvent: {}
+[1.603662] (-) TimerEvent: {}
+[1.703985] (-) TimerEvent: {}
+[1.804358] (-) TimerEvent: {}
+[1.904686] (-) TimerEvent: {}
+[2.005013] (-) TimerEvent: {}
+[2.105416] (-) TimerEvent: {}
+[2.205841] (-) TimerEvent: {}
+[2.306206] (-) TimerEvent: {}
+[2.406638] (-) TimerEvent: {}
+[2.507105] (-) TimerEvent: {}
+[2.607642] (-) TimerEvent: {}
+[2.708071] (-) TimerEvent: {}
+[2.808489] (-) TimerEvent: {}
+[2.908916] (-) TimerEvent: {}
+[3.009327] (-) TimerEvent: {}
+[3.109717] (-) TimerEvent: {}
+[3.210074] (-) TimerEvent: {}
+[3.310354] (-) TimerEvent: {}
+[3.410706] (-) TimerEvent: {}
+[3.511035] (-) TimerEvent: {}
+[3.611406] (-) TimerEvent: {}
+[3.711882] (-) TimerEvent: {}
+[3.812302] (-) TimerEvent: {}
+[3.912639] (-) TimerEvent: {}
+[4.013100] (-) TimerEvent: {}
+[4.113567] (-) TimerEvent: {}
+[4.214009] (-) TimerEvent: {}
+[4.314438] (-) TimerEvent: {}
+[4.414773] (-) TimerEvent: {}
+[4.515137] (-) TimerEvent: {}
+[4.615567] (-) TimerEvent: {}
+[4.715882] (-) TimerEvent: {}
+[4.816204] (-) TimerEvent: {}
+[4.916608] (-) TimerEvent: {}
+[5.017046] (-) TimerEvent: {}
+[5.117398] (-) TimerEvent: {}
+[5.217822] (-) TimerEvent: {}
+[5.318169] (-) TimerEvent: {}
+[5.418588] (-) TimerEvent: {}
+[5.518938] (-) TimerEvent: {}
+[5.619387] (-) TimerEvent: {}
+[5.719840] (-) TimerEvent: {}
+[5.820283] (-) TimerEvent: {}
+[5.920748] (-) TimerEvent: {}
+[6.021159] (-) TimerEvent: {}
+[6.121463] (-) TimerEvent: {}
+[6.221774] (-) TimerEvent: {}
+[6.322081] (-) TimerEvent: {}
+[6.422384] (-) TimerEvent: {}
+[6.522685] (-) TimerEvent: {}
+[6.622992] (-) TimerEvent: {}
+[6.723334] (-) TimerEvent: {}
+[6.823748] (-) TimerEvent: {}
+[6.924105] (-) TimerEvent: {}
+[7.024592] (-) TimerEvent: {}
+[7.125052] (-) TimerEvent: {}
+[7.225454] (-) TimerEvent: {}
+[7.325819] (-) TimerEvent: {}
+[7.426171] (-) TimerEvent: {}
+[7.526561] (-) TimerEvent: {}
+[7.572781] (interfaces) StdoutLine: {'line': b'[35/38] Building CXX object CMakeFiles/interfaces_matlab.dir/src/interfaces_Float32Array12_message.cpp.o\n'}
+[7.620486] (interfaces) StdoutLine: {'line': b'[36/38] Building CXX object CMakeFiles/interfaces_matlab.dir/src/interfaces_Float32Array8_message.cpp.o\n'}
+[7.626654] (-) TimerEvent: {}
+[7.727005] (-) TimerEvent: {}
+[7.827428] (-) TimerEvent: {}
+[7.847242] (interfaces) StdoutLine: {'line': b'[37/38] Linking CXX shared library libinterfaces_matlab.so\n'}
+[7.848473] (interfaces) CommandEnded: {'returncode': 0}
+[7.859958] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'install'}
+[7.861587] (interfaces) Command: {'cmd': ['/usr/local/MATLAB/R2025b/bin/glnxa64/cmake/bin/cmake', '--install', '/home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/build/interfaces'], 'cwd': '/home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('ARCH', 'glnxa64'), ('CUSTOM_LD_LIBRARY_PATH', ''), ('USER', 'ema'), ('LOCAL_PYTHON_VENV_PATH', '/home/ema/.matlab/R2025b/ros2/glnxa64/venv'), ('MEMKIND_HEAP_MANAGER', 'TBB'), ('CUSTOM_AMENT_PREFIX_PATH', '/home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install:/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2'), ('XDG_SESSION_TYPE', 'x11'), ('__EGL_VENDOR_LIBRARY_FILENAMES', '/usr/share/glvnd/egl_vendor.d/10_nvidia.json'), ('CLUTTER_DISABLE_MIPMAPPED_TEXT', '1'), ('KMP_HANDLE_SIGNALS', '0'), ('SHLVL', '2'), ('ICU_TIMEZONE_FILES_DIR', '/usr/local/MATLAB/R2025b/bin/icutzdata'), ('LD_LIBRARY_PATH', ':/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/lib:/usr/local/MATLAB/R2025b/sys/os/glnxa64:/usr/local/MATLAB/R2025b/bin/glnxa64:/home/ema/.MathWorks/xdJTwxKhLpLNmhsyPIrTSJYUZLtloJyItpbCjJDyqQg/bin/glnxa64:/usr/local/MATLAB/R2025b/extern/lib/glnxa64:/usr/local/MATLAB/R2025b/cefclient/sys/os/glnxa64:/usr/local/MATLAB/R2025b/sys/java/jre/glnxa64/jre/lib/amd64/native_threads:/usr/local/MATLAB/R2025b/sys/java/jre/glnxa64/jre/lib/amd64/server:/home/ema/mujoco-3.6.0/lib:'), ('BASEMATLABPATH', ''), ('HOME', '/home/ema'), ('AUTOMOUNT_MAP', ''), ('OLDPWD', '/usr/local/MATLAB/R2025b'), ('DESKTOP_SESSION', 'ubuntu'), ('MW_LD_SHIM', '/usr/local/MATLAB/R2025b/bin/glnxa64/ld_shim.so.2.39.ubuntu_24_04'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('KMP_BLOCKTIME', '1'), ('PS1', '(venv)'), ('LIBVA_MESSAGING_LEVEL', '0'), ('SYSTEMD_EXEC_PID', '4433'), ('GSM_SKIP_SSH_AGENT_WORKAROUND', 'true'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('DEBUGINFOD_URLS', 'https://debuginfod.ubuntu.com'), ('CUSTOM_SITE_PACKAGES_PATH', ''), ('COLCON_PREFIX_PATH', '/home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install:/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2:/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2'), ('MWAPIKEY', 'bUCdPx9n7WqQlkfg'), ('ROS_DISTRO', 'jazzy'), ('LOGNAME', 'ema'), ('MATLAB_MEM_MGR_VALUE', ''), ('_', '/home/ema/.matlab/R2025b/ros2/glnxa64/venv/bin/colcon'), ('PKG_CONFIG_PATH', '/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/lib/pkgconfig'), ('MEMORY_PRESSURE_WATCH', '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ema'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/MATLAB/R2025b/bin/glnxa64/cmake/bin::/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/bin:/home/ema/.matlab/R2025b/ros2/glnxa64/venv/bin:/home/ema/.matlab/R2025b/ros2/glnxa64/venv/bin:/usr/local/MATLAB/R2025b/toolbox/shared/coder/ninja/glnxa64:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tuxedo:@/tmp/.ICE-unix/4402,unix/tuxedo:/tmp/.ICE-unix/4402'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/05f40462_feae_4b78_b1f7_43b20fe59747'), ('MUJOCO_PATH', '/home/ema/mujoco-3.6.0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('TOOLBOX', '/usr/local/MATLAB/R2025b/toolbox'), ('MKL_DOMAIN_NUM_THREADS', ''), ('KMP_INIT_AT_FORK', 'false'), ('DISPLAY', ':1'), ('LD_PRELOAD', ''), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PRE_LD_PRELOAD', ''), ('VIRTUAL_ENV_PROMPT', '(venv)'), ('RMW_IMPLEMENTATION', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:'), ('GNOME_TERMINAL_SERVICE', ':1.302'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install:/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2:/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2'), ('SHELL', '/bin/bash'), ('CMAKE_PATH', '/usr/local/MATLAB/R2025b/bin/glnxa64/cmake/bin'), ('XFILESEARCHPATH', '/usr/local/MATLAB/R2025b/sys/java/jre/glnxa64/jre/lib/locale/%L/%T/%N%S:'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('OSG_LD_LIBRARY_PATH', '/usr/local/MATLAB/R2025b/sys/openscenegraph/lib/glnxa64'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VIRTUAL_ENV', '/home/ema/.matlab/R2025b/ros2/glnxa64/venv'), ('CUSTOM_PATH', ''), ('KMP_STACKSIZE', '512k'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/build/interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DYLD_LIBRARY_PATH', ':/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/lib:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('MKL_NUM_THREADS', ''), ('MW_PATCH_OFFSETS', '0000100000002A80'), ('PYTHONPATH', ':/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/lib/python3.9/site-packages:/home/ema/.matlab/R2025b/ros2/glnxa64/venv/lib/python3.10/site-packages:'), ('LC_NUMERIC', 'C'), ('COLCON', '1'), ('MEMORY_PRESSURE_WRITE', 'c29tZSAyMDAwMDAgMjAwMDAwMAA='), ('VTE_VERSION', '7600'), ('MW_CONNECTOR_COOKIE_SETTINGS', '[{"prefix":"ch_","suffix":"_327116"}]'), ('CMAKE_PREFIX_PATH', '/home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install:/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2:/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2')]), 'shell': False}
+[7.863142] (interfaces) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[7.863284] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/rosidl_interfaces/interfaces\n'}
+[7.863401] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/msg/Float32Array12.json\n'}
+[7.863571] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/msg/Float32Array8.json\n'}
+[7.863641] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces\n'}
+[7.863685] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg\n'}
+[7.863733] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail\n'}
+[7.863774] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/float32_array12__functions.c\n'}
+[7.864389] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/float32_array12__functions.h\n'}
+[7.864589] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/float32_array8__functions.h\n'}
+[7.864718] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/float32_array8__struct.h\n'}
+[7.864813] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/float32_array8__functions.c\n'}
+[7.864892] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/float32_array8__type_support.c\n'}
+[7.864984] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/float32_array8__description.c\n'}
+[7.865028] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/float32_array12__type_support.c\n'}
+[7.865119] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/float32_array12__description.c\n'}
+[7.865183] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/float32_array8__type_support.h\n'}
+[7.865238] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/float32_array12__type_support.h\n'}
+[7.865291] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/float32_array12__struct.h\n'}
+[7.865358] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/float32_array8.h\n'}
+[7.865418] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/float32_array12.h\n'}
+[7.865493] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.865536] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/environment/library_path.sh\n'}
+[7.865576] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/environment/library_path.dsv\n'}
+[7.865613] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/lib/libinterfaces__rosidl_generator_c.so\n'}
+[7.865650] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces\n'}
+[7.865687] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg\n'}
+[7.865728] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail\n'}
+[7.865766] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/float32_array8__rosidl_typesupport_fastrtps_c.h\n'}
+[7.865805] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/float32_array12__rosidl_typesupport_fastrtps_c.h\n'}
+[7.865843] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.865879] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[7.865916] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces\n'}
+[7.865956] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg\n'}
+[7.865991] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail\n'}
+[7.866028] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/float32_array8__type_support.c\n'}
+[7.866065] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/float32_array12__rosidl_typesupport_introspection_c.h\n'}
+[7.866103] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/float32_array12__type_support.c\n'}
+[7.866141] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/float32_array8__rosidl_typesupport_introspection_c.h\n'}
+[7.866179] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.866216] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/lib/libinterfaces__rosidl_typesupport_introspection_c.so\n'}
+[7.866254] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/lib/libinterfaces__rosidl_typesupport_c.so\n'}
+[7.866291] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces\n'}
+[7.866327] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg\n'}
+[7.866364] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail\n'}
+[7.866403] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/float32_array8__type_support.hpp\n'}
+[7.866445] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/float32_array12__type_support.hpp\n'}
+[7.866481] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/float32_array12__traits.hpp\n'}
+[7.866517] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/float32_array12__builder.hpp\n'}
+[7.866559] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/float32_array8__struct.hpp\n'}
+[7.866595] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/float32_array12__struct.hpp\n'}
+[7.866631] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/float32_array8__builder.hpp\n'}
+[7.866668] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/float32_array8__traits.hpp\n'}
+[7.866705] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/float32_array12.hpp\n'}
+[7.866742] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/float32_array8.hpp\n'}
+[7.866778] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[7.866815] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces\n'}
+[7.866853] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg\n'}
+[7.866890] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail\n'}
+[7.866927] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/dds_fastrtps\n'}
+[7.866962] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/float32_array12__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.867000] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/float32_array8__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.867036] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.867072] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.867110] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces\n'}
+[7.867150] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg\n'}
+[7.867188] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail\n'}
+[7.867226] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/float32_array8__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.867264] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/float32_array12__type_support.cpp\n'}
+[7.867301] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/float32_array8__type_support.cpp\n'}
+[7.867337] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/float32_array12__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.867374] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[7.867412] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/lib/libinterfaces__rosidl_typesupport_cpp.so\n'}
+[7.867449] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/msg/Float32Array12.idl\n'}
+[7.867485] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/msg/Float32Array8.idl\n'}
+[7.867524] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/msg/Float32Array12.msg\n'}
+[7.867565] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/msg/Float32Array8.msg\n'}
+[7.867602] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include\n'}
+[7.867706] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces\n'}
+[7.867772] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/visibility_control.h\n'}
+[7.867820] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/lib/libinterfaces_matlab.so\n'}
+[7.870153] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/m/\n'}
+[7.870318] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/m//+ros\n'}
+[7.870378] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/m//+ros/+internal\n'}
+[7.870473] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2\n'}
+[7.870532] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages\n'}
+[7.870604] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+interfaces\n'}
+[7.870643] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+interfaces/float32Array12.m\n'}
+[7.870685] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+interfaces/float32Array8.m\n'}
+[7.870725] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/package_run_dependencies/interfaces\n'}
+[7.870776] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/parent_prefix_path/interfaces\n'}
+[7.870843] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/environment/ament_prefix_path.sh\n'}
+[7.870945] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/environment/ament_prefix_path.dsv\n'}
+[7.871029] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/environment/path.sh\n'}
+[7.871079] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/environment/path.dsv\n'}
+[7.871121] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/local_setup.bash\n'}
+[7.871162] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/local_setup.sh\n'}
+[7.871203] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/local_setup.zsh\n'}
+[7.871242] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/local_setup.dsv\n'}
+[7.871365] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/package.dsv\n'}
+[7.871417] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/packages/interfaces\n'}
+[7.871457] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake\n'}
+[7.871494] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-release.cmake\n'}
+[7.871571] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[7.871611] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-release.cmake\n'}
+[7.871649] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.871685] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[7.871721] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake\n'}
+[7.871760] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-release.cmake\n'}
+[7.871858] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/export_interfaces__rosidl_generator_cppExport.cmake\n'}
+[7.871921] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[7.871965] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-release.cmake\n'}
+[7.872007] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.872045] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[7.872082] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[7.872193] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-release.cmake\n'}
+[7.872489] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[7.872830] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.873633] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.873687] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.873756] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.873779] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.873801] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.873822] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/interfacesConfig.cmake\n'}
+[7.873843] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/interfacesConfig-version.cmake\n'}
+[7.873864] (interfaces) StdoutLine: {'line': b'-- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/package.xml\n'}
+[7.873892] (interfaces) CommandEnded: {'returncode': 0}
+[7.912656] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 0}
+[7.913322] (-) EventReactorShutdown: {}

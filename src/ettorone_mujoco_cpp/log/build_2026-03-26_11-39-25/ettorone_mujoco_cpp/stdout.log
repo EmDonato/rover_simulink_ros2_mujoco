@@ -1,0 +1,25 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/mj_ros2_ettorone.dir/src/main.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/mj_ros2_ettorone.dir/src/mj_ettorone_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable mj_ros2_ettorone[0m
+[100%] Built target mj_ros2_ettorone
+-- Install configuration: ""
+-- Installing: /home/ema/Desktop/work/ettorone_mujoco_cpp/install/ettorone_mujoco_cpp/lib/ettorone_mujoco_cpp/mj_ros2_ettorone
+-- Set non-toolchain portion of runtime path of "/home/ema/Desktop/work/ettorone_mujoco_cpp/install/ettorone_mujoco_cpp/lib/ettorone_mujoco_cpp/mj_ros2_ettorone" to "/home/ema/mujoco-3.6.0/lib"
+-- Up-to-date: /home/ema/Desktop/work/ettorone_mujoco_cpp/install/ettorone_mujoco_cpp/include
+-- Up-to-date: /home/ema/Desktop/work/ettorone_mujoco_cpp/install/ettorone_mujoco_cpp/include/ettorone_mujoco_cpp
+-- Installing: /home/ema/Desktop/work/ettorone_mujoco_cpp/install/ettorone_mujoco_cpp/include/ettorone_mujoco_cpp/mj_ettorone_node.hpp
+-- Up-to-date: /home/ema/Desktop/work/ettorone_mujoco_cpp/install/ettorone_mujoco_cpp/share/ament_index/resource_index/package_run_dependencies/ettorone_mujoco_cpp
+-- Up-to-date: /home/ema/Desktop/work/ettorone_mujoco_cpp/install/ettorone_mujoco_cpp/share/ament_index/resource_index/parent_prefix_path/ettorone_mujoco_cpp
+-- Up-to-date: /home/ema/Desktop/work/ettorone_mujoco_cpp/install/ettorone_mujoco_cpp/share/ettorone_mujoco_cpp/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ema/Desktop/work/ettorone_mujoco_cpp/install/ettorone_mujoco_cpp/share/ettorone_mujoco_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ema/Desktop/work/ettorone_mujoco_cpp/install/ettorone_mujoco_cpp/share/ettorone_mujoco_cpp/environment/path.sh
+-- Up-to-date: /home/ema/Desktop/work/ettorone_mujoco_cpp/install/ettorone_mujoco_cpp/share/ettorone_mujoco_cpp/environment/path.dsv
+-- Up-to-date: /home/ema/Desktop/work/ettorone_mujoco_cpp/install/ettorone_mujoco_cpp/share/ettorone_mujoco_cpp/local_setup.bash
+-- Up-to-date: /home/ema/Desktop/work/ettorone_mujoco_cpp/install/ettorone_mujoco_cpp/share/ettorone_mujoco_cpp/local_setup.sh
+-- Up-to-date: /home/ema/Desktop/work/ettorone_mujoco_cpp/install/ettorone_mujoco_cpp/share/ettorone_mujoco_cpp/local_setup.zsh
+-- Up-to-date: /home/ema/Desktop/work/ettorone_mujoco_cpp/install/ettorone_mujoco_cpp/share/ettorone_mujoco_cpp/local_setup.dsv
+-- Installing: /home/ema/Desktop/work/ettorone_mujoco_cpp/install/ettorone_mujoco_cpp/share/ettorone_mujoco_cpp/package.dsv
+-- Up-to-date: /home/ema/Desktop/work/ettorone_mujoco_cpp/install/ettorone_mujoco_cpp/share/ament_index/resource_index/packages/ettorone_mujoco_cpp
+-- Up-to-date: /home/ema/Desktop/work/ettorone_mujoco_cpp/install/ettorone_mujoco_cpp/share/ettorone_mujoco_cpp/cmake/ettorone_mujoco_cppConfig.cmake
+-- Up-to-date: /home/ema/Desktop/work/ettorone_mujoco_cpp/install/ettorone_mujoco_cpp/share/ettorone_mujoco_cpp/cmake/ettorone_mujoco_cppConfig-version.cmake
+-- Up-to-date: /home/ema/Desktop/work/ettorone_mujoco_cpp/install/ettorone_mujoco_cpp/share/ettorone_mujoco_cpp/package.xml

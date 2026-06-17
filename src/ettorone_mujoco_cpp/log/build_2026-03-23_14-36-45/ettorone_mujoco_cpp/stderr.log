@@ -1,0 +1,4 @@
+[01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/src/mj_ettorone_node.cpp:[m[K In member function ‘[01m[Kvoid MjEttorone::[01;32m[Kphysics_loop[m[K()[m[K’:
+[01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/src/mj_ettorone_node.cpp:136:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kviewport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  136 |             mjrRect [01;35m[Kviewport[m[K = {0, 0, 0, 0};
+      |                     [01;35m[K^~~~~~~~[m[K

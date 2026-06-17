@@ -1,0 +1,75 @@
+In file included from [01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/src/mj_ettorone_node.cpp:1[m[K:
+[01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/include/ettorone_mujoco_cpp/mj_ettorone_node.hpp:29:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstexpr[m[K’ needed for in-class initialization of static data member ‘[01m[KmjModel* MjEttorone::g_model[m[K’ of non-integral type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   29 |     static mjModel* [01;31m[Kg_model[m[K = nullptr;
+      |                     [01;31m[K^~~~~~~[m[K
+[01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/src/mj_ettorone_node.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K mouse_button[m[K(GLFWwindow*, int, int, int)[m[K’:
+[01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/src/mj_ettorone_node.cpp:12:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbutton[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   12 | void mouse_button(GLFWwindow* window, [01;35m[Kint button[m[K, int act, int mods)
+      |                                       [01;35m[K~~~~^~~~~~[m[K
+[01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/src/mj_ettorone_node.cpp:12:55:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kact[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   12 | void mouse_button(GLFWwindow* window, int button, [01;35m[Kint act[m[K, int mods)
+      |                                                   [01;35m[K~~~~^~~[m[K
+[01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/src/mj_ettorone_node.cpp:12:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmods[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   12 | void mouse_button(GLFWwindow* window, int button, int act, [01;35m[Kint mods[m[K)
+      |                                                            [01;35m[K~~~~^~~~[m[K
+[01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/src/mj_ettorone_node.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K mouse_move[m[K(GLFWwindow*, double, double)[m[K’:
+[01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/src/mj_ettorone_node.cpp:46:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kmodel_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmodfl[m[K’?
+   46 |     mjv_moveCamera([01;31m[Kmodel_[m[K, action, dx/height, dy/height, &scn_, &cam_);
+      |                    [01;31m[K^~~~~~[m[K
+      |                    [32m[Kmodfl[m[K
+[01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/src/mj_ettorone_node.cpp:46:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kscn_[m[K’ was not declared in this scope
+   46 |     mjv_moveCamera(model_, action, dx/height, dy/height, &[01;31m[Kscn_[m[K, &cam_);
+      |                                                           [01;31m[K^~~~[m[K
+[01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/src/mj_ettorone_node.cpp:46:66:[m[K [01;31m[Kerror: [m[K‘[01m[Kcam_[m[K’ was not declared in this scope
+   46 |     mjv_moveCamera(model_, action, dx/height, dy/height, &scn_, &[01;31m[Kcam_[m[K);
+      |                                                                  [01;31m[K^~~~[m[K
+In file included from [01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/src/main.cpp:2[m[K:
+[01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/include/ettorone_mujoco_cpp/mj_ettorone_node.hpp:29:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstexpr[m[K’ needed for in-class initialization of static data member ‘[01m[KmjModel* MjEttorone::g_model[m[K’ of non-integral type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   29 |     static mjModel* [01;31m[Kg_model[m[K = nullptr;
+      |                     [01;31m[K^~~~~~~[m[K
+[01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/src/mj_ettorone_node.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K scroll[m[K(GLFWwindow*, double, double)[m[K’:
+[01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/src/mj_ettorone_node.cpp:51:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kmodel_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmodfl[m[K’?
+   51 |     mjv_moveCamera([01;31m[Kmodel_[m[K, mjMOUSE_ZOOM, 0, -0.05*yoffset, &scn_, &cam_);
+      |                    [01;31m[K^~~~~~[m[K
+      |                    [32m[Kmodfl[m[K
+[01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/src/mj_ettorone_node.cpp:51:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kscn_[m[K’ was not declared in this scope
+   51 |     mjv_moveCamera(model_, mjMOUSE_ZOOM, 0, -0.05*yoffset, &[01;31m[Kscn_[m[K, &cam_);
+      |                                                             [01;31m[K^~~~[m[K
+[01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/src/mj_ettorone_node.cpp:51:68:[m[K [01;31m[Kerror: [m[K‘[01m[Kcam_[m[K’ was not declared in this scope
+   51 |     mjv_moveCamera(model_, mjMOUSE_ZOOM, 0, -0.05*yoffset, &scn_, &[01;31m[Kcam_[m[K);
+      |                                                                    [01;31m[K^~~~[m[K
+[01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/src/mj_ettorone_node.cpp:49:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kwindow[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   49 | void scroll([01;35m[KGLFWwindow* window[m[K, double xoffset, double yoffset)
+      |             [01;35m[K~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/src/mj_ettorone_node.cpp:49:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kxoffset[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   49 | void scroll(GLFWwindow* window, [01;35m[Kdouble xoffset[m[K, double yoffset)
+      |                                 [01;35m[K~~~~~~~^~~~~~~[m[K
+[01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/src/mj_ettorone_node.cpp:[m[K In constructor ‘[01m[KMjEttorone::[01;32m[KMjEttorone[m[K()[m[K’:
+[01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/src/mj_ettorone_node.cpp:77:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmodel_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmodfl[m[K’?
+   77 |     [01;31m[Kmodel_[m[K = mj_loadXML("model/ettorone.xml", nullptr, error, 1000);
+      |     [01;31m[K^~~~~~[m[K
+      |     [32m[Kmodfl[m[K
+[01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/src/mj_ettorone_node.cpp:[m[K In destructor ‘[01m[Kvirtual MjEttorone::[01;32m[K~MjEttorone[m[K()[m[K’:
+[01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/src/mj_ettorone_node.cpp:140:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmodel_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmodfl[m[K’?
+  140 |     if ([01;31m[Kmodel_[m[K) {
+      |         [01;31m[K^~~~~~[m[K
+      |         [32m[Kmodfl[m[K
+[01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/src/mj_ettorone_node.cpp:[m[K In member function ‘[01m[Kvoid MjEttorone::[01;32m[Kphysics_loop[m[K()[m[K’:
+[01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/src/mj_ettorone_node.cpp:168:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kmodel_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmodfl[m[K’?
+  168 |             for (int i = 0; i < [01;31m[Kmodel_[m[K->nu; ++i) {
+      |                                 [01;31m[K^~~~~~[m[K
+      |                                 [32m[Kmodfl[m[K
+[01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/src/mj_ettorone_node.cpp:173:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kmodel_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmodfl[m[K’?
+  173 |             mj_step([01;31m[Kmodel_[m[K, data_);
+      |                     [01;31m[K^~~~~~[m[K
+      |                     [32m[Kmodfl[m[K
+[01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/src/mj_ettorone_node.cpp:[m[K In member function ‘[01m[Kvoid MjEttorone::[01;32m[Krender_once[m[K()[m[K’:
+[01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/src/mj_ettorone_node.cpp:211:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kmodel_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmodfl[m[K’?
+  211 |         mjv_updateScene([01;31m[Kmodel_[m[K, data_, &opt_, nullptr, &cam_, mjCAT_ALL, &scn_);
+      |                         [01;31m[K^~~~~~[m[K
+      |                         [32m[Kmodfl[m[K
+gmake[2]: *** [CMakeFiles/mj_ros2_ettorone.dir/build.make:76: CMakeFiles/mj_ros2_ettorone.dir/src/main.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/mj_ros2_ettorone.dir/build.make:90: CMakeFiles/mj_ros2_ettorone.dir/src/mj_ettorone_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mj_ros2_ettorone.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

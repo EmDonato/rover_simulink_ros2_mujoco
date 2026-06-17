@@ -1,0 +1,15 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/mj_ros2_ettorone.dir/src/mj_ettorone_node.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/mj_ros2_ettorone.dir/src/main.cpp.o[0m
+[01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/src/mj_ettorone_node.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kmj_ros2_ettorone/mj_ettorone_node.hpp: No such file or directory
+    1 | #include [01;31m[K"mj_ros2_ettorone/mj_ettorone_node.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/mj_ros2_ettorone.dir/build.make:90: CMakeFiles/mj_ros2_ettorone.dir/src/mj_ettorone_node.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/src/main.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kmj_ros2_ettorone/mj_ettorone_node.hpp: No such file or directory
+    2 | #include [01;31m[K"mj_ros2_ettorone/mj_ettorone_node.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/mj_ros2_ettorone.dir/build.make:76: CMakeFiles/mj_ros2_ettorone.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mj_ros2_ettorone.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

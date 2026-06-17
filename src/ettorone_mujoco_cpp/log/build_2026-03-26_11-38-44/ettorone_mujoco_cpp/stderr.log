@@ -1,0 +1,10 @@
+[01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/src/mj_ettorone_node.cpp:[m[K In member function ‘[01m[Kvoid MjEttorone::[01;32m[Krender_once[m[K()[m[K’:
+[01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/src/mj_ettorone_node.cpp:261:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata_render_[m[K’ was not declared in this scope
+  261 |         mj_copyData([01;31m[Kdata_render_[m[K, model_, data_);
+      |                     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/src/mj_ettorone_node.cpp:268:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata_render_[m[K’ was not declared in this scope
+  268 |     mjv_updateScene(model_, [01;31m[Kdata_render_[m[K, &opt_, nullptr, &cam_, mjCAT_ALL, &scn_);
+      |                             [01;31m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/mj_ros2_ettorone.dir/build.make:90: CMakeFiles/mj_ros2_ettorone.dir/src/mj_ettorone_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mj_ros2_ettorone.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

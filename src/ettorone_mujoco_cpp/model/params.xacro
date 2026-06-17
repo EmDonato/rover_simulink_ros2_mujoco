@@ -1,0 +1,31 @@
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <xacro:property name="wheel_radius" value="0.12"/>
+    <xacro:property name="wheel_width" value="0.09"/>
+    <xacro:property name="wheel_mass" value="1"/>
+    <xacro:property name="wheelbase" value="0.6"/>
+
+
+    <xacro:property name="sub_module_y" value="0.25"/>
+    <xacro:property name="sub_module_x" value="0.365"/>
+    <xacro:property name="sub_module_z" value="0.275"/>
+    <xacro:property name="sub_module_mass" value="15"/>
+    <xacro:property name="sub_module_offset_wheel" value="0.15"/>
+    <xacro:property name="sub_module_offset_steer_x" value="0"/>
+    <xacro:property name="sub_module_offset_steer_y" value="0.11"/>
+    <xacro:property name="sub_module_offset_steer_z" value="0.09"/>
+    <xacro:property name="mass_motor" value="2.5"/>
+
+    <xacro:property name="blue" value="0.2 0.2 0.7 0.8"/>
+    <xacro:property name="yellow" value="0.7 0.7 0.0 0.8"/>
+    <xacro:property name="green" value="0 0.8 0 0.8"/>
+    <xacro:property name="pink" value="0.7 0.4 0.55 0.8"/>
+    <xacro:property name="red" value="1 0 0 0.7"/>
+
+    <xacro:property name="base_module_x" value="0.275"/>
+    <xacro:property name="base_module_y" value="0.25"/>
+    <xacro:property name="base_module_z" value="275"/>
+    <xacro:property name="base_mass" value="15"/>
+
+
+</robot>

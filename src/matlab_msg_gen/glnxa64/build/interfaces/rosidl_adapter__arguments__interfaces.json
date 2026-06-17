@@ -1,0 +1,7 @@
+{
+  "package_name": "interfaces",
+  "non_idl_tuples": [
+    "/home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/src/interfaces:msg/Float32Array12.msg",
+    "/home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/src/interfaces:msg/Float32Array8.msg"
+  ]
+}

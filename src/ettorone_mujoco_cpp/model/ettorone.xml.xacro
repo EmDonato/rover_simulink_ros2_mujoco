@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<mujoco model="rover" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <xacro:include filename="params.xacro"/>
+  <xacro:include filename="wheel_corner.xacro"/>
+
+  <compiler angle="degree" coordinate="local"/>
+  <option gravity="0 0 -9.81" timestep="0.002"/>
+  <option cone="elliptic"/>
+
+
+  <worldbody>
+    <light pos= "0 0 10" dir="0 0 -1" diffuse="1 1 1"/>
+    
+    <geom name="floor" type="plane" size="10 10 0.1" friction="1 0.01 0.01" rgba="0.8 0.8 0.8 1"/>
+
+    <body name="base" pos="0 0 0.3">
+        <joint type="free"/>
+        <geom type="box"
+              size="${base_module_x/2} ${sub_module_y} ${sub_module_z/2}"
+              mass="${base_mass}"
+              rgba="${red}"/>
+
+        <xacro:wheel_corner name="fl" x="${base_module_x/2 + sub_module_x/2}" y="${sub_module_y/2}" z="0" is_left="true" color="${blue}"/>
+        <xacro:wheel_corner name="bl" x="${-base_module_x/2 - sub_module_x/2}" y="${sub_module_y/2}" z="0" is_left="true" color="${yellow}"/>
+        <xacro:wheel_corner name="fr" x="${base_module_x/2 + sub_module_x/2}" y="${-sub_module_y/2}" z="0" is_left="false" color="${pink}"/>
+        <xacro:wheel_corner name="br" x="${-base_module_x/2 - sub_module_x/2}" y="${-sub_module_y/2}" z="0" is_left="false" color="${green}"/>
+    </body >
+  </worldbody>
+    <actuator>
+
+        <motor joint="fl_wheel_joint" ctrlrange="-51 51"/>
+        <motor joint="bl_wheel_joint" ctrlrange="-51 51"/>
+        <motor joint="fr_wheel_joint" ctrlrange="-51 51"/>
+        <motor joint="br_wheel_joint" ctrlrange="-51 51"/> 
+
+        <motor joint="fl_steering_joint" ctrlrange="-17 17"/>
+        <motor joint="bl_steering_joint" ctrlrange="-17 17"/>
+        <motor joint="fr_steering_joint" ctrlrange="-17 17"/>
+        <motor joint="br_steering_joint" ctrlrange="-17 17"/>
+
+    </actuator>
+
+</mujoco>

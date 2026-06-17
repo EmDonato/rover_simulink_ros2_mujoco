@@ -1,0 +1,54 @@
+[0.008s] Invoking command in '/home/ema/Desktop/work/ettorone_mujoco_cpp/build/ettorone_mujoco_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ema/Desktop/work/ettorone_mujoco_cpp/build/ettorone_mujoco_cpp -- -j16 -l16
+[0.028s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.195s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.219s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.225s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.233s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.241s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.275s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.275s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.312s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.346s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.352s] -- Found tf2: 0.36.19 (/opt/ros/jazzy/share/tf2/cmake)
+[0.364s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.420s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.420s] -- Configured cppcheck include dirs: /home/ema/Desktop/work/ettorone_mujoco_cpp/include
+[0.420s] -- Configured cppcheck exclude dirs and/or files: 
+[0.420s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.421s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.422s] -- Added test 'lint_cmake' to check CMake code style
+[0.422s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.426s] -- Added test 'uncrustify' to check C / C++ code style
+[0.426s] -- Configured uncrustify additional arguments: 
+[0.427s] -- Added test 'xmllint' to check XML markup files
+[0.427s] -- Configuring done (0.4s)
+[0.433s] -- Generating done (0.0s)
+[0.435s] -- Build files have been written to: /home/ema/Desktop/work/ettorone_mujoco_cpp/build/ettorone_mujoco_cpp
+[0.470s] [ 33%] [32mBuilding CXX object CMakeFiles/mj_ros2_ettorone.dir/src/main.cpp.o[0m
+[0.471s] [ 66%] [32mBuilding CXX object CMakeFiles/mj_ros2_ettorone.dir/src/mj_ettorone_node.cpp.o[0m
+[4.883s] [100%] [32m[1mLinking CXX executable mj_ros2_ettorone[0m
+[5.061s] [100%] Built target mj_ros2_ettorone
+[5.068s] Invoked command in '/home/ema/Desktop/work/ettorone_mujoco_cpp/build/ettorone_mujoco_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ema/Desktop/work/ettorone_mujoco_cpp/build/ettorone_mujoco_cpp -- -j16 -l16
+[5.075s] Invoking command in '/home/ema/Desktop/work/ettorone_mujoco_cpp/build/ettorone_mujoco_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ema/Desktop/work/ettorone_mujoco_cpp/build/ettorone_mujoco_cpp
+[5.080s] -- Install configuration: ""
+[5.080s] -- Installing: /home/ema/Desktop/work/ettorone_mujoco_cpp/install/ettorone_mujoco_cpp/lib/ettorone_mujoco_cpp/mj_ros2_ettorone
+[5.082s] -- Set non-toolchain portion of runtime path of "/home/ema/Desktop/work/ettorone_mujoco_cpp/install/ettorone_mujoco_cpp/lib/ettorone_mujoco_cpp/mj_ros2_ettorone" to "/home/ema/mujoco-3.6.0/lib"
+[5.082s] -- Up-to-date: /home/ema/Desktop/work/ettorone_mujoco_cpp/install/ettorone_mujoco_cpp/include
+[5.082s] -- Up-to-date: /home/ema/Desktop/work/ettorone_mujoco_cpp/install/ettorone_mujoco_cpp/include/ettorone_mujoco_cpp
+[5.082s] -- Installing: /home/ema/Desktop/work/ettorone_mujoco_cpp/install/ettorone_mujoco_cpp/include/ettorone_mujoco_cpp/mj_ettorone_node.hpp
+[5.082s] -- Up-to-date: /home/ema/Desktop/work/ettorone_mujoco_cpp/install/ettorone_mujoco_cpp/share/ament_index/resource_index/package_run_dependencies/ettorone_mujoco_cpp
+[5.082s] -- Installing: /home/ema/Desktop/work/ettorone_mujoco_cpp/install/ettorone_mujoco_cpp/share/ament_index/resource_index/parent_prefix_path/ettorone_mujoco_cpp
+[5.082s] -- Up-to-date: /home/ema/Desktop/work/ettorone_mujoco_cpp/install/ettorone_mujoco_cpp/share/ettorone_mujoco_cpp/environment/ament_prefix_path.sh
+[5.082s] -- Up-to-date: /home/ema/Desktop/work/ettorone_mujoco_cpp/install/ettorone_mujoco_cpp/share/ettorone_mujoco_cpp/environment/ament_prefix_path.dsv
+[5.082s] -- Up-to-date: /home/ema/Desktop/work/ettorone_mujoco_cpp/install/ettorone_mujoco_cpp/share/ettorone_mujoco_cpp/environment/path.sh
+[5.082s] -- Up-to-date: /home/ema/Desktop/work/ettorone_mujoco_cpp/install/ettorone_mujoco_cpp/share/ettorone_mujoco_cpp/environment/path.dsv
+[5.082s] -- Up-to-date: /home/ema/Desktop/work/ettorone_mujoco_cpp/install/ettorone_mujoco_cpp/share/ettorone_mujoco_cpp/local_setup.bash
+[5.082s] -- Up-to-date: /home/ema/Desktop/work/ettorone_mujoco_cpp/install/ettorone_mujoco_cpp/share/ettorone_mujoco_cpp/local_setup.sh
+[5.082s] -- Up-to-date: /home/ema/Desktop/work/ettorone_mujoco_cpp/install/ettorone_mujoco_cpp/share/ettorone_mujoco_cpp/local_setup.zsh
+[5.082s] -- Up-to-date: /home/ema/Desktop/work/ettorone_mujoco_cpp/install/ettorone_mujoco_cpp/share/ettorone_mujoco_cpp/local_setup.dsv
+[5.082s] -- Installing: /home/ema/Desktop/work/ettorone_mujoco_cpp/install/ettorone_mujoco_cpp/share/ettorone_mujoco_cpp/package.dsv
+[5.082s] -- Up-to-date: /home/ema/Desktop/work/ettorone_mujoco_cpp/install/ettorone_mujoco_cpp/share/ament_index/resource_index/packages/ettorone_mujoco_cpp
+[5.082s] -- Up-to-date: /home/ema/Desktop/work/ettorone_mujoco_cpp/install/ettorone_mujoco_cpp/share/ettorone_mujoco_cpp/cmake/ettorone_mujoco_cppConfig.cmake
+[5.082s] -- Up-to-date: /home/ema/Desktop/work/ettorone_mujoco_cpp/install/ettorone_mujoco_cpp/share/ettorone_mujoco_cpp/cmake/ettorone_mujoco_cppConfig-version.cmake
+[5.082s] -- Up-to-date: /home/ema/Desktop/work/ettorone_mujoco_cpp/install/ettorone_mujoco_cpp/share/ettorone_mujoco_cpp/package.xml
+[5.083s] Invoked command in '/home/ema/Desktop/work/ettorone_mujoco_cpp/build/ettorone_mujoco_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ema/Desktop/work/ettorone_mujoco_cpp/build/ettorone_mujoco_cpp

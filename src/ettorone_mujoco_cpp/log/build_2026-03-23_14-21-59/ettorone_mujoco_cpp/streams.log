@@ -1,0 +1,40 @@
+[0.008s] Invoking command in '/home/ema/Desktop/work/ettorone_mujoco_cpp/build/ettorone_mujoco_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ema/Desktop/work/ettorone_mujoco_cpp/build/ettorone_mujoco_cpp -- -j16 -l16
+[0.028s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.179s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.193s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.197s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.202s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.208s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.238s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.239s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.275s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.309s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.316s] -- Found tf2: 0.36.19 (/opt/ros/jazzy/share/tf2/cmake)
+[0.325s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.379s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.379s] -- Configured cppcheck include dirs: /home/ema/Desktop/work/ettorone_mujoco_cpp/include
+[0.379s] -- Configured cppcheck exclude dirs and/or files: 
+[0.379s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.379s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.380s] -- Added test 'lint_cmake' to check CMake code style
+[0.381s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.384s] -- Added test 'uncrustify' to check C / C++ code style
+[0.384s] -- Configured uncrustify additional arguments: 
+[0.385s] -- Added test 'xmllint' to check XML markup files
+[0.385s] -- Configuring done (0.4s)
+[0.390s] -- Generating done (0.0s)
+[0.393s] -- Build files have been written to: /home/ema/Desktop/work/ettorone_mujoco_cpp/build/ettorone_mujoco_cpp
+[0.418s] [ 33%] [32mBuilding CXX object CMakeFiles/mj_ros2_ettorone.dir/src/main.cpp.o[0m
+[0.418s] [ 66%] [32mBuilding CXX object CMakeFiles/mj_ros2_ettorone.dir/src/mj_ettorone_node.cpp.o[0m
+[1.589s] [01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/src/mj_ettorone_node.cpp:3:7:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kclass MjEttorone[m[K’
+[1.589s]     3 | class [01;31m[KMjEttorone[m[K : public rclcpp::Node
+[1.589s]       |       [01;31m[K^~~~~~~~~~[m[K
+[1.589s] In file included from [01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/src/mj_ettorone_node.cpp:1[m[K:
+[1.589s] [01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/include/ettorone_mujoco_cpp/mj_ettorone_node.hpp:13:7:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kclass MjEttorone[m[K’
+[1.589s]    13 | class [01;36m[KMjEttorone[m[K : public rclcpp::Node
+[1.589s]       |       [01;36m[K^~~~~~~~~~[m[K
+[1.929s] gmake[2]: *** [CMakeFiles/mj_ros2_ettorone.dir/build.make:90: CMakeFiles/mj_ros2_ettorone.dir/src/mj_ettorone_node.cpp.o] Error 1
+[1.929s] gmake[2]: *** Waiting for unfinished jobs....
+[1.958s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mj_ros2_ettorone.dir/all] Error 2
+[1.958s] gmake: *** [Makefile:146: all] Error 2
+[1.960s] Invoked command in '/home/ema/Desktop/work/ettorone_mujoco_cpp/build/ettorone_mujoco_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ema/Desktop/work/ettorone_mujoco_cpp/build/ettorone_mujoco_cpp -- -j16 -l16

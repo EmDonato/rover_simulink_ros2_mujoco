@@ -1,0 +1,40 @@
+{
+  "package_name": "interfaces",
+  "output_dir": "/home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/build/interfaces/rosidl_generator_c/interfaces",
+  "template_dir": "/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/rosidl_generator_c/cmake/../resource",
+  "idl_tuples": [
+    "/home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/build/interfaces/rosidl_adapter/interfaces:msg/Float32Array12.idl",
+    "/home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/build/interfaces/rosidl_adapter/interfaces:msg/Float32Array8.idl"
+  ],
+  "ros_interface_files": [
+    "/home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/src/interfaces/msg/Float32Array12.msg",
+    "/home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/src/interfaces/msg/Float32Array8.msg"
+  ],
+  "target_dependencies": [
+    "/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
+    "/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/rosidl_generator_c/cmake/../../../lib/python3.9/site-packages/rosidl_generator_c/__init__.py",
+    "/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/rosidl_generator_c/cmake/../resource/action__type_support.h.em",
+    "/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/rosidl_generator_c/cmake/../resource/action__type_support.c.em",
+    "/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/rosidl_generator_c/cmake/../resource/empty__description.c.em",
+    "/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/rosidl_generator_c/cmake/../resource/full__description.c.em",
+    "/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/rosidl_generator_c/cmake/../resource/idl.h.em",
+    "/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/rosidl_generator_c/cmake/../resource/idl__description.c.em",
+    "/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/rosidl_generator_c/cmake/../resource/idl__functions.c.em",
+    "/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/rosidl_generator_c/cmake/../resource/idl__functions.h.em",
+    "/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/rosidl_generator_c/cmake/../resource/idl__struct.h.em",
+    "/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/rosidl_generator_c/cmake/../resource/idl__type_support.c.em",
+    "/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/rosidl_generator_c/cmake/../resource/idl__type_support.h.em",
+    "/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/rosidl_generator_c/cmake/../resource/msg__functions.c.em",
+    "/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/rosidl_generator_c/cmake/../resource/msg__functions.h.em",
+    "/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
+    "/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
+    "/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/rosidl_generator_c/cmake/../resource/srv__type_support.c.em",
+    "/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
+    "/home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/build/interfaces/rosidl_adapter/interfaces/msg/Float32Array12.idl",
+    "/home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/build/interfaces/rosidl_adapter/interfaces/msg/Float32Array8.idl"
+  ],
+  "type_description_tuples": [
+    "msg/Float32Array12.idl:/home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/build/interfaces/rosidl_generator_type_description/interfaces/msg/Float32Array12.json",
+    "msg/Float32Array8.idl:/home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/build/interfaces/rosidl_generator_type_description/interfaces/msg/Float32Array8.json"
+  ]
+}

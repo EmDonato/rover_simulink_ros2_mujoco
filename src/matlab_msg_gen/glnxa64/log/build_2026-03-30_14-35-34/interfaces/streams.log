@@ -1,0 +1,170 @@
+[0.018s] Invoking command in '/home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/build/interfaces': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(venv) VIRTUAL_ENV_PROMPT=(venv) /usr/local/MATLAB/R2025b/bin/glnxa64/cmake/bin/cmake /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/src/interfaces -DCMAKE_BUILD_TYPE=Release -DCMAKE_SHARED_LINKER_FLAGS=-Wl,-no-as-needed -DBUILD_TESTING=OFF -DALIAS_ROS2_TF2=1 -DCMAKE_CXX_FLAGS_RELEASE=-O0 -G Ninja -DCMAKE_C_COMPILER=/usr/bin/gcc-12 -DCMAKE_CXX_COMPILER=/usr/bin/g++-12 -DCMAKE_INSTALL_PREFIX=/home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install
+[0.053s] -- The C compiler identification is GNU 12.4.0
+[0.087s] -- The CXX compiler identification is GNU 12.4.0
+[0.097s] -- Detecting C compiler ABI info
+[0.129s] -- Detecting C compiler ABI info - done
+[0.133s] -- Check for working C compiler: /usr/bin/gcc-12 - skipped
+[0.133s] -- Detecting C compile features
+[0.135s] -- Detecting C compile features - done
+[0.138s] -- Detecting CXX compiler ABI info
+[0.187s] -- Detecting CXX compiler ABI info - done
+[0.191s] -- Check for working CXX compiler: /usr/bin/g++-12 - skipped
+[0.192s] -- Detecting CXX compile features
+[0.192s] -- Detecting CXX compile features - done
+[0.192s] -- Building for ROS 2 Jazzy
+[0.200s] -- Found ament_cmake: 2.5.2 (/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/ament_cmake/cmake)
+[0.358s] -- Found Python3: /home/ema/.matlab/R2025b/ros2/glnxa64/venv/bin/python3 (found version "3.10.20") found components: Interpreter 
+[0.410s] -- Found ament_cmake_ros: 0.12.0 (/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/ament_cmake_ros/cmake)
+[0.416s] -- Found rosidl_typesupport_c: 3.2.2 (/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_c/cmake)
+[0.417s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.448s] -- Found rosidl_typesupport_cpp: 3.2.2 (/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_cpp/cmake)
+[0.449s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.471s] -- Found rosidl_default_generators: 1.6.0 (/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/rosidl_default_generators/cmake)
+[0.476s] -- Found rosidl_adapter: 4.8.1 (/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/rosidl_adapter/cmake)
+[0.478s] -- Found class_loader: 2.7.0 (/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/class_loader/cmake)
+[0.482s] -- Found rclcpp: 28.1.3 (/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/rclcpp/cmake)
+[0.533s] -- Found rmw_implementation_cmake: 7.3.1 (/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/rmw_implementation_cmake/cmake)
+[0.535s] -- Found rmw_fastrtps_cpp: 9.0.0 (/usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/share/rmw_fastrtps_cpp/cmake)
+[0.558s] -- Found FastRTPS: /usr/local/MATLAB/R2025b/sys/ros2/glnxa64/ros2/include (Required is at least version "2.13") 
+[0.563s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.744s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.804s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.809s] -- Configuring done
+[0.820s] -- Generating done
+[0.828s] -- Build files have been written to: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/build/interfaces
+[0.835s] Invoked command in '/home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/build/interfaces' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(venv) VIRTUAL_ENV_PROMPT=(venv) /usr/local/MATLAB/R2025b/bin/glnxa64/cmake/bin/cmake /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/src/interfaces -DCMAKE_BUILD_TYPE=Release -DCMAKE_SHARED_LINKER_FLAGS=-Wl,-no-as-needed -DBUILD_TESTING=OFF -DALIAS_ROS2_TF2=1 -DCMAKE_CXX_FLAGS_RELEASE=-O0 -G Ninja -DCMAKE_C_COMPILER=/usr/bin/gcc-12 -DCMAKE_CXX_COMPILER=/usr/bin/g++-12 -DCMAKE_INSTALL_PREFIX=/home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install
+[0.836s] Invoking command in '/home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/build/interfaces': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(venv) VIRTUAL_ENV_PROMPT=(venv) /usr/local/MATLAB/R2025b/bin/glnxa64/cmake/bin/cmake --build /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/build/interfaces -- -j16 -l16
+[0.924s] [1/27] Generating type hashes for ROS interfaces
+[1.032s] [2/27] Generating C code for ROS interfaces
+[1.033s] [3/27] Generating C++ code for ROS interfaces
+[1.053s] [4/27] Building C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/float32_array8__description.c.o
+[1.054s] [5/27] Building C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/float32_array8__type_support.c.o
+[1.084s] [6/27] Building C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/float32_array8__functions.c.o
+[1.096s] [7/27] Linking C shared library libinterfaces__rosidl_generator_c.so
+[1.203s] [8/27] Generating C introspection for ROS interfaces
+[1.204s] [9/27] Generating C++ type support for eProsima Fast-RTPS
+[1.215s] [10/27] Generating C type support for eProsima Fast-RTPS
+[1.225s] [11/27] Building C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/float32_array8__type_support.c.o
+[1.227s] [12/27] Generating C++ introspection for ROS interfaces
+[1.240s] [13/27] Generating C type support dispatch for ROS interfaces
+[1.242s] [14/27] Linking C shared library libinterfaces__rosidl_typesupport_introspection_c.so
+[1.260s] [15/27] Building CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/float32_array8__type_support.cpp.o
+[1.261s] [16/27] Generating C++ type support dispatch for ROS interfaces
+[1.311s] [17/27] Linking CXX shared library libinterfaces__rosidl_typesupport_c.so
+[1.384s] [18/27] Building CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/float32_array8__type_support.cpp.o
+[1.406s] [19/27] Building CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/float32_array8__type_support.cpp.o
+[1.424s] [20/27] Linking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so
+[1.441s] [21/27] Building CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/float32_array8__type_support_c.cpp.o
+[1.455s] [22/27] Linking CXX shared library libinterfaces__rosidl_typesupport_cpp.so
+[1.473s] [23/27] Linking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so
+[1.501s] [24/27] Building CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/float32_array8__type_support.cpp.o
+[1.537s] [25/27] Linking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so
+[7.038s] [26/27] Building CXX object CMakeFiles/interfaces_matlab.dir/src/interfaces_Float32Array8_message.cpp.o
+[7.217s] [27/27] Linking CXX shared library libinterfaces_matlab.so
+[7.219s] Invoked command in '/home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/build/interfaces' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(venv) VIRTUAL_ENV_PROMPT=(venv) /usr/local/MATLAB/R2025b/bin/glnxa64/cmake/bin/cmake --build /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/build/interfaces -- -j16 -l16
+[7.233s] Invoking command in '/home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/build/interfaces': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(venv) VIRTUAL_ENV_PROMPT=(venv) /usr/local/MATLAB/R2025b/bin/glnxa64/cmake/bin/cmake --install /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/build/interfaces
+[7.234s] -- Install configuration: "Release"
+[7.234s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/rosidl_interfaces/interfaces
+[7.234s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/msg/Float32Array8.json
+[7.234s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces
+[7.234s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg
+[7.234s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail
+[7.234s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/float32_array8__functions.h
+[7.234s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/float32_array8__struct.h
+[7.234s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/float32_array8__functions.c
+[7.234s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/float32_array8__type_support.c
+[7.234s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/float32_array8__description.c
+[7.234s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/float32_array8__type_support.h
+[7.234s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/float32_array8.h
+[7.234s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h
+[7.234s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/environment/library_path.sh
+[7.234s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/environment/library_path.dsv
+[7.234s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/lib/libinterfaces__rosidl_generator_c.so
+[7.235s] -- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces
+[7.235s] -- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg
+[7.235s] -- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail
+[7.235s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/float32_array8__rosidl_typesupport_fastrtps_c.h
+[7.235s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.235s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so
+[7.235s] -- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces
+[7.235s] -- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg
+[7.235s] -- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail
+[7.235s] -- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/float32_array8__type_support.c
+[7.235s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/float32_array8__rosidl_typesupport_introspection_c.h
+[7.235s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.235s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/lib/libinterfaces__rosidl_typesupport_introspection_c.so
+[7.235s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/lib/libinterfaces__rosidl_typesupport_c.so
+[7.235s] -- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces
+[7.235s] -- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg
+[7.235s] -- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail
+[7.235s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/float32_array8__type_support.hpp
+[7.235s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/float32_array8__struct.hpp
+[7.235s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/float32_array8__builder.hpp
+[7.235s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/float32_array8__traits.hpp
+[7.235s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/float32_array8.hpp
+[7.235s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.235s] -- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces
+[7.235s] -- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg
+[7.235s] -- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail
+[7.235s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/dds_fastrtps
+[7.235s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/float32_array8__rosidl_typesupport_fastrtps_cpp.hpp
+[7.235s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.235s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so
+[7.235s] -- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces
+[7.235s] -- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg
+[7.235s] -- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail
+[7.235s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/float32_array8__rosidl_typesupport_introspection_cpp.hpp
+[7.235s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/interfaces/msg/detail/float32_array8__type_support.cpp
+[7.235s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so
+[7.235s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/lib/libinterfaces__rosidl_typesupport_cpp.so
+[7.235s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/msg/Float32Array8.idl
+[7.235s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/msg/Float32Array8.msg
+[7.235s] -- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include
+[7.235s] -- Up-to-date: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces
+[7.235s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/include/interfaces/visibility_control.h
+[7.236s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/lib/libinterfaces_matlab.so
+[7.237s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/m/
+[7.237s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/m//+ros
+[7.237s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/m//+ros/+internal
+[7.237s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2
+[7.237s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages
+[7.237s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+interfaces
+[7.237s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+interfaces/float32Array8.m
+[7.237s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/package_run_dependencies/interfaces
+[7.237s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/parent_prefix_path/interfaces
+[7.237s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/environment/ament_prefix_path.sh
+[7.238s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/environment/ament_prefix_path.dsv
+[7.238s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/environment/path.sh
+[7.238s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/environment/path.dsv
+[7.238s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/local_setup.bash
+[7.238s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/local_setup.sh
+[7.238s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/local_setup.zsh
+[7.238s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/local_setup.dsv
+[7.238s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/package.dsv
+[7.238s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/packages/interfaces
+[7.238s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake
+[7.238s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-release.cmake
+[7.238s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[7.238s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-release.cmake
+[7.238s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake
+[7.238s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-release.cmake
+[7.238s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake
+[7.238s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-release.cmake
+[7.238s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/export_interfaces__rosidl_generator_cppExport.cmake
+[7.238s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.238s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[7.238s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[7.238s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-release.cmake
+[7.238s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake
+[7.238s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-release.cmake
+[7.238s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/rosidl_cmake-extras.cmake
+[7.239s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.239s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[7.239s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[7.239s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.239s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.239s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.239s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/interfacesConfig.cmake
+[7.239s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/cmake/interfacesConfig-version.cmake
+[7.239s] -- Installing: /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/install/share/interfaces/package.xml
+[7.240s] Invoked command in '/home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/build/interfaces' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(venv) VIRTUAL_ENV_PROMPT=(venv) /usr/local/MATLAB/R2025b/bin/glnxa64/cmake/bin/cmake --install /home/ema/Desktop/work/rover/src/matlab_msg_gen/glnxa64/build/interfaces

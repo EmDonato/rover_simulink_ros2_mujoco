@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from interfaces/msg/Float32Array8.msg
+// generated code does not contain a copyright notice
+
+
+module interfaces {
+  module msg {
+    typedef float float__8[8];
+    struct Float32Array8 {
+      float__8 data;
+    };
+  };
+};

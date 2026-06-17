@@ -1,0 +1,15 @@
+[0.009s] Invoking command in '/home/ema/Desktop/work/ettorone_mujoco_cpp/build/ettorone_mujoco_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ema/Desktop/work/ettorone_mujoco_cpp/build/ettorone_mujoco_cpp -- -j16 -l16
+[0.064s] [ 33%] [32mBuilding CXX object CMakeFiles/mj_ros2_ettorone.dir/src/main.cpp.o[0m
+[0.065s] [ 66%] [32mBuilding CXX object CMakeFiles/mj_ros2_ettorone.dir/src/mj_ettorone_node.cpp.o[0m
+[1.315s] [01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/src/main.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[1.316s] [01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/src/main.cpp:19:22:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Krclcpp::WallRate rate[m[K’
+[1.316s]    19 |     rclcpp::WallRate [01;31m[Krate[m[K(60.0);
+[1.316s]       |                      [01;31m[K^~~~[m[K
+[1.316s] [01m[K/home/ema/Desktop/work/ettorone_mujoco_cpp/src/main.cpp:13:22:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::WallRate rate[m[K’ previously declared here
+[1.316s]    13 |     rclcpp::WallRate [01;36m[Krate[m[K(60.0);  // refresh viewer
+[1.316s]       |                      [01;36m[K^~~~[m[K
+[1.690s] gmake[2]: *** [CMakeFiles/mj_ros2_ettorone.dir/build.make:76: CMakeFiles/mj_ros2_ettorone.dir/src/main.cpp.o] Error 1
+[1.690s] gmake[2]: *** Waiting for unfinished jobs....
+[4.411s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mj_ros2_ettorone.dir/all] Error 2
+[4.411s] gmake: *** [Makefile:146: all] Error 2
+[4.413s] Invoked command in '/home/ema/Desktop/work/ettorone_mujoco_cpp/build/ettorone_mujoco_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ema/Desktop/work/ettorone_mujoco_cpp/build/ettorone_mujoco_cpp -- -j16 -l16
